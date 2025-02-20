@@ -1,20 +1,22 @@
 # rss-imdb
 
+Build an rss feed for imdb upcoming movies.
+
 https://www.imdb.com/calendar/?region=US&type=MOVIE
 
 # Build settings for App Runner
 
-Configuration source
+## Configuration source
 API
 
-Runtime
+## Runtime
 Python 3
 
-Start command
+## Start command
 python app.py
 
-Build command
+## Build command
 pip install -r requirements.txt
 
-Port
+## Port
 8080
