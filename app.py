@@ -59,7 +59,7 @@ try:
         latest_rss = ET.tostring(rss, encoding="utf-8", method="xml").decode("utf-8")
 
     # Flask endpoint to serve the RSS feed
-    @app.route("/rss")
+    @app.route("/imdb")
     def rss_feed():
         return Response(latest_rss, mimetype='application/rss+xml')
 
